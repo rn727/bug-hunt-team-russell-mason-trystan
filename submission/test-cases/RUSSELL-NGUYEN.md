@@ -34,23 +34,31 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
+**Test ID:** TC-03
+**Written by:** Russell Nguyen
+**Title:** New costume submitted by new user does not show on leaderboard
+**Traces to:** REQ-14
+**Test type:** System
+**Preconditions:** Have access to the website
 **Test data:**
-
+- username: user
+- password: password
+- name: a hi
 **Steps:**
-1.
-2.
-3.
+1. From the homepage, go into the login/registration page by pressing "Log In / Register".
+2. Register with the test data username and password.
+3. Log in with the test data username and password.
+4. Go to the page associated with the "Submit Costume" button.
+5. Populate the costume name input box with the test data name.
+6. Press "Submit Costume".
+7. Go to the leaderboard page by clicking "Leaderboard"
 
 **Expected result:**
+There should be 5 costumes on the leaderboard, with "a hi" being at the very top.
 **Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+There are only 4 costumes populating the leaderboard, with the "a hi" submission being absent.
+**Status:** Fail
+**Severity:** Major
+**V or V:** Verification
 
 ---
