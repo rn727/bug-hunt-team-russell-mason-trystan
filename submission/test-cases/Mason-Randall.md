@@ -1,6 +1,6 @@
-# Test Cases: [Your First Name Last Initial]
+# Test Cases: [Mason Randall]
 
-**Team number:** [XX]
+**Team number:** [Trystan,Russell]
 
 <!--
 HOW TO USE THIS FILE
@@ -15,23 +15,33 @@ HOW TO USE THIS FILE
 ---
 
 **Test ID:**
+Test:05
 **Written by:**
+Mason
 **Title:**
+Documentation bug   
 **Traces to:**
+architecture doesn't and the code does not match the code is contradicting the documentation 
 **Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
+System 
 **Preconditions:**
 **Test data:**
 
 **Steps:**
-1.
-2.
-3.
+1.Looking at the Uml 
+2.Look at the code 
+3.match the documentation to the code  
 
 **Expected result:**
+Everything should be the same as it is stated code and architecture are supposed to match
 **Actual result:**
+Does not match they do not follow from the voting having a negative -1 vote when it should be 0 
 **Status:** (Pass / Fail)
+Fail
 **Severity:** (Critical / Major / Minor, Fail only)
+Critical 
 **V or V:** (Verification / Validation, Fail only)
+Validation failed  
 
 ---
 
