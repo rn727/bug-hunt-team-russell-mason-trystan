@@ -14,24 +14,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test ID:** TC-01
+**Written by:** Russell Nguyen
+**Title:** Secrets appear in the source code
+**Traces to:** NFR-03
+**Test type:** Security
+**Preconditions:** Have access to the Github repository
+**Test data:** 
 
 **Steps:**
-1.
-2.
-3.
+1. Go into the fright-night-bug-hunt repository.
+2. Find app/config.js
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result:** Secrets are not present
+**Actual result:** Secrets are present
+**Status:** Fail
+**Severity:** Critical
+**V or V:** Verification
 
 ---
 
