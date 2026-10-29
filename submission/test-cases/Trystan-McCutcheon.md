@@ -18,7 +18,7 @@ HOW TO USE THIS FILE
 **Written by: Trystan McCutcheon**
 **Title: Multiple Costume Submissions**
 **Traces to: REQ-03**
-**Test type:** (Unit)
+**Test type:** (Integration)
 **Preconditions: User is logged in** 
 **Test data: Costume 1: Costume Name: "Scary Skeleton", Description: "Scary", Costume Category: "Spooky"; Costume 2: Costume Name: "Scary Skeleton 2", Description: "Scary", Costume Category: "Spooky"**
 
@@ -35,23 +35,23 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
+**Test ID: TC-04**
+**Written by: Trystan McCutcheon**
+**Title: Only logged in Users can submit Costumes**
+**Traces to: REQ-02**
+**Test type: (Negative)**
+**Preconditions: Users is logged in and can submit, Users is not logged in and can't submit**
+**Test data: Logon: "User: ghost_gary" "Password: boo12345", Costume: Costume Name: "Scary Skeleton", Description: "Scary", Costume Category: "Spooky"**
 
 **Steps:**
-1.
-2.
-3.
+1. Attempt to submit a costume and fail
+2. Logon using Test data
+3. Submit a costume and succeed
 
-**Expected result:**
-**Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
+**Expected result: Not logged in: "Please log in to submit a costume."**
+**Actual result: "Please log in to submit a costume."**
+**Status: (Pass)**
+**Severity: (Minor)**
+**V or V: (Verification)**
 
 ---
