@@ -15,7 +15,7 @@ HOW TO USE THIS FILE
 ---
 
 **Test ID:**
-Test:05
+Test:TC-05
 **Written by:**
 Mason
 **Title:**
@@ -42,26 +42,5 @@ Fail
 Critical 
 **V or V:** (Verification / Validation, Fail only)
 Validation failed  
-
----
-
-**Test ID:**
-**Written by:**
-**Title:**
-**Traces to:**
-**Test type:**
-**Preconditions:**
-**Test data:**
-
-**Steps:**
-1.
-2.
-3.
-
-**Expected result:**
-**Actual result:**
-**Status:**
-**Severity:**
-**V or V:**
 
 ---
