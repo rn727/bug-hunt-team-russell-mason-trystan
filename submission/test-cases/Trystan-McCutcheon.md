@@ -17,7 +17,7 @@ HOW TO USE THIS FILE
 **Test ID: TC-02**
 **Written by: Trystan McCutcheon**
 **Title: Multiple Costume Submissions**
-**Traces to:**
+**Traces to: REQ-03**
 **Test type:** (Unit)
 **Preconditions: User is logged in** 
 **Test data: Costume 1: Costume Name: "Scary Skeleton", Description: "Scary", Costume Category: "Spooky"; Costume 2: Costume Name: "Scary Skeleton 2", Description: "Scary", Costume Category: "Spooky"**
