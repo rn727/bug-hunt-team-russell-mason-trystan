@@ -62,3 +62,23 @@ There are only 4 costumes populating the leaderboard, with the "a hi" submission
 **V or V:** Verification
 
 ---
+
+**Test ID:** TC-07
+**Written by:** Russell Nguyen
+**Title:** Cannot see who leads in the contest voting
+**Traces to:** G2
+**Test type:** Acceptance
+**Preconditions:** There are 500 costume submissions on the leaderboard with the leading costume in votes being the 300th entry sorted alphabetically.
+**Test data:**
+**Steps:**
+1. From the homepage, go to the leaderboard page through the "Leaderboard" button
+
+**Expected result:**
+The leading costume in votes should show at the top.
+**Actual result:**
+The leading costume shows as the 300th entry.
+**Status:** Fail
+**Severity:** Major
+**V or V:** Validation
+
+---
