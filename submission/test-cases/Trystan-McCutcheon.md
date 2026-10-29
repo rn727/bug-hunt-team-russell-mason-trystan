@@ -55,3 +55,25 @@ HOW TO USE THIS FILE
 **V or V: (Verification)**
 
 ---
+
+**Test ID: TC-06**
+**Written by: Trystan McCutcheon**
+**Title: User/Not logged in can vote more than 3 times**
+**Traces to: REQ-09**
+**Test type: (Acceptance)**
+**Preconditions: There are costume submissions to vote on**
+**Test data: If no costume submissions: Costume: Costume Name: "Scary Skeleton", Description: "Scary", Costume Category: "Spooky"**
+
+**Steps:**
+1. Have costumes to vote on or submit a costume
+2. Go to vote page
+3. Vote 4 times
+
+**Expected result: At 0 votes no votes allowed**
+**Actual result: -1 votes**
+**Status: (Fail)**
+**Severity: (Major)**
+**V or V: (Verification)**
+
+---
+
