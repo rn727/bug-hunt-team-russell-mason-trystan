@@ -14,24 +14,24 @@ HOW TO USE THIS FILE
 
 ---
 
-**Test ID:**
-**Written by:**
-**Title:**
+**Test ID: TC-02**
+**Written by: Trystan McCutcheon**
+**Title: Multiple Costume Submissions**
 **Traces to:**
-**Test type:** (Unit / Integration / System / Acceptance / Boundary Value / Negative / Security)
-**Preconditions:**
-**Test data:**
+**Test type:** (Unit)
+**Preconditions: User is logged in** 
+**Test data: Costume 1: Costume Name: "Scary Skeleton", Description: "Scary", Costume Category: "Spooky"; Costume 2: Costume Name: "Scary Skeleton 2", Description: "Scary", Costume Category: "Spooky"**
 
 **Steps:**
-1.
-2.
-3.
+1. Log on
+2. Submit Costume 1
+3. Submit Costume 2
 
-**Expected result:**
-**Actual result:**
-**Status:** (Pass / Fail)
-**Severity:** (Critical / Major / Minor, Fail only)
-**V or V:** (Verification / Validation, Fail only)
+**Expected result: On Costume 2: Error: "Submission already made"**
+**Actual result: Both submissions sent**
+**Status:** (Fail)
+**Severity:** (Major)
+**V or V:** (Verification)
 
 ---
 
