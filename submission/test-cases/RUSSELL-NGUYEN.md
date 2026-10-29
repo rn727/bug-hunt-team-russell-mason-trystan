@@ -1,6 +1,6 @@
 # Test Cases: Russell Nguyen
 
-**Team number:** Russell Mason Trystan
+**Team number:** N/A
 
 <!--
 HOW TO USE THIS FILE
