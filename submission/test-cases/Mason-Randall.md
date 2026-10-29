@@ -1,6 +1,6 @@
 # Test Cases: [Mason Randall]
 
-**Team number:** [Trystan,Russell]
+**Team number:** [N/A]
 
 <!--
 HOW TO USE THIS FILE
